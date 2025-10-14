@@ -1,4 +1,4 @@
-# Evidence Graph – Weight-Loss Coaching Insights (Starter)
+# Evidence Graph – Weight-Loss Coaching Insights
 
 A minimal **Streamlit** dashboard that ingests a cohort CSV and produces BMI/deficit trends,
 at‑risk user flags, and exportable summaries.
