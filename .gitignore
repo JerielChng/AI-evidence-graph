@@ -1,0 +1,46 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Local data and generated files
+data/
+*.csv
+*.xlsx
+*.json
+*.db
+*.zip
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# System-specific
+*.bak
+*.swp
+*.tmp
+~$*
