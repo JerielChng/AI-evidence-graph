@@ -184,8 +184,8 @@ st.dataframe(at_risk if not at_risk.empty else pd.DataFrame(columns=["user_id","
 # --- Export buttons ---
 st.markdown("### Export insights")
 export_payload = build_export(df, at_risk)
-st.download_button("Download JSON summary", data=str(export_payload).encode("utf-8"), file_name="insights_summary.json")
-st.download_button("Download CSV (at-risk)", data=at_risk.to_csv(index=False).encode("utf-8"), file_name="at_risk.csv")
+st.download_button("Download KPI summary (JSON)", data=str(export_payload).encode("utf-8"), file_name="insights_summary.json")
+st.download_button("Download at-risk users (CSV)", data=at_risk.to_csv(index=False).encode("utf-8"), file_name="at_risk.csv")
 
 # --- AI summary ---
 st.markdown("### AI coaching summary")
